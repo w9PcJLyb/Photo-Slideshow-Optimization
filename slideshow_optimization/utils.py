@@ -62,7 +62,7 @@ def to_array(_x: Union[List[Photo], Photo], all_tags: list) -> np.array:
 
 def array_score(v: np.array, ar: np.array) -> np.array:
     """
-    Calculate score between photo vektor (v) and photo array (ar)
+    Calculate score between photo vector (v) and photo array (ar)
     """
     return np.minimum.reduce(
         [
